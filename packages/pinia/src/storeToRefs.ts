@@ -9,7 +9,7 @@ import {
   toRef,
   ToRefs,
   toRefs,
-} from 'vue-demi'
+} from 'vue'
 import { StoreGetters, StoreState } from './store'
 import type { PiniaCustomStateProperties, StoreGeneric } from './types'
 
