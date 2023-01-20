@@ -4,7 +4,7 @@ import type {
   Ref,
   UnwrapRef,
   WatchOptions,
-} from 'vue-demi'
+} from 'vue'
 import { Pinia } from './rootStore'
 
 /**
