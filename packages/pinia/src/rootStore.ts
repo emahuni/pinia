@@ -5,7 +5,7 @@ import {
   inject,
   InjectionKey,
   Ref,
-} from 'vue-demi'
+} from 'vue'
 import {
   StateTree,
   PiniaCustomProperties,
