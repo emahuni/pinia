@@ -1,4 +1,4 @@
-import { isRef, isReactive, isVue2, set } from 'vue-demi'
+import { isRef, isReactive, isVue2, set } from 'vue'
 import { Pinia } from './rootStore'
 import { isPlainObject, StoreDefinition, StoreGeneric, _Method } from './types'
 
