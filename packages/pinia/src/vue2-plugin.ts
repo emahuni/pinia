@@ -1,4 +1,4 @@
-import type { Plugin } from 'vue-demi'
+import type { PluginFunction } from 'vue'
 import { registerPiniaDevtools } from './devtools'
 import { IS_CLIENT, USE_DEVTOOLS } from './env'
 import { Pinia, piniaSymbol, setActivePinia } from './rootStore'
@@ -25,7 +25,7 @@ import { Pinia, piniaSymbol, setActivePinia } from './rootStore'
  *
  * @param _Vue - `Vue` imported from 'vue'.
  */
-export const PiniaVuePlugin: Plugin = function (_Vue) {
+export const PiniaVuePlugin: PluginFunction = function (_Vue) {
   // Equivalent of
   // app.config.globalProperties.$pinia = pinia
   _Vue.mixin({
