@@ -22,7 +22,7 @@ import {
   del,
   nextTick,
   isVue2,
-} from 'vue-demi'
+} from 'vue'
 import {
   StateTree,
   SubscriptionCallback,
