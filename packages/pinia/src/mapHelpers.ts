@@ -1,4 +1,4 @@
-import type { ComponentPublicInstance } from 'vue-demi'
+import type { ComponentPublicInstance } from 'vue'
 import type {
   _GettersTree,
   _Method,
