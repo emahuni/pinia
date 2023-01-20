@@ -1,5 +1,5 @@
 import { Pinia, PiniaPlugin, setActivePinia, piniaSymbol } from './rootStore'
-import { ref, App, markRaw, effectScope, isVue2, Ref } from 'vue-demi'
+import { ref, App, markRaw, effectScope, isVue2, Ref } from 'vue'
 import { registerPiniaDevtools, devtoolsPlugin } from './devtools'
 import { USE_DEVTOOLS } from './env'
 import { StateTree, StoreGeneric } from './types'
